@@ -1,6 +1,6 @@
 # Dev Stack
 
-An responsive simple todo app where you can add you favorite tech stacks.
+An responsive simple todo app where you can add your favorite tech stacks.
 ---
 
 ## Features
