@@ -5,7 +5,7 @@ import { FiMenu, FiX } from "react-icons/fi";
 const Nav = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <div className="w-full bg-base-100 shadow-md relative">
+    <div className="w-full bg-black shadow-md relative">
       <div className="container mx-auto navbar flex justify-between items-center px-6 py-3">
         <div className="flex-none">
           <a className="btn btn-ghost p-0 hover:bg-transparent">
@@ -13,7 +13,7 @@ const Nav = () => {
           </a>
         </div>
 
-        <div className="hidden md:flex flex-1 justify-center">
+        <div className="hidden lg:flex flex-1 justify-center">
           <ul className="flex items-center gap-8 font-medium text-base-content/80">
             <li>
               <a href="#" className="text-[#DB2777] font-semibold">
@@ -48,7 +48,7 @@ const Nav = () => {
           </ul>
         </div>
 
-        <div className="hidden md:flex flex-none items-center gap-3">
+        <div className="hidden lg:flex flex-none items-center gap-3">
           <button className="btn btn-ghost rounded-full border border-base-300 px-6">
             Sign In
           </button>
@@ -58,7 +58,7 @@ const Nav = () => {
         </div>
 
         {/* MOBILE/TABLET BUTTON: Hamburger Icon (Visible under 768px) */}
-        <div className="md:hidden flex-none">
+        <div className="lg:hidden flex-none">
           <button
             onClick={() => setIsOpen(!isOpen)}
             className="btn btn-ghost btn-circle text-2xl text-base-content"
@@ -70,7 +70,7 @@ const Nav = () => {
 
       {/* MOBILE DROPDOWN MENU */}
       {isOpen && (
-        <div className="absolute top-full left-0 w-full bg-base-100 border-t shadow-lg z-50 md:hidden p-6 animate-fadeIn">
+        <div className="absolute top-full left-0 w-full bg-base-100 border-t shadow-lg z-50 lg:hidden p-6 animate-fadeIn">
           <ul className="flex flex-col gap-4 font-medium text-base-content/80 mb-6">
             <li>
               <a

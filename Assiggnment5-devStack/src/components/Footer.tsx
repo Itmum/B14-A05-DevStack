@@ -3,14 +3,10 @@ import React from "react";
 const Footer = () => {
   return (
     <div>
-      <footer className="w-full bg-base-100 text-base-content border-t border-base-200 mt-auto">
-        {/* Main Content Area */}
+      <footer className="w-full bg-black text-base-content border-t border-base-200 mt-auto">
         <div className="container mx-auto px-6 py-12">
-          {/* Desktop Grid Layout vs Mobile Flex Stack Layout */}
           <div className="flex flex-col items-center text-center md:text-left md:grid md:grid-cols-12 md:gap-8">
-            {/* Brand Column (Spans 5 columns on desktop) */}
             <div className="md:col-span-5 max-w-sm mb-8 md:mb-0">
-              {/* Logo */}
               <div className="flex items-center justify-center md:justify-start gap-2 mb-4">
                 <div className="bg-gradient-to-tr from-purple-600 to-pink-500 text-white font-bold px-2 py-1 rounded-lg text-sm tracking-wide">
                   DS
@@ -20,13 +16,11 @@ const Footer = () => {
                 </span>
               </div>
 
-              {/* Tagline */}
               <p className="text-sm text-base-content/60 leading-relaxed mb-6">
                 Curated tools, technologies, and resources for developers
                 building modern software.
               </p>
 
-              {/* Social Links (Inlined for Mobile dots layout, spaced for Desktop) */}
               <div className="flex items-center justify-center md:justify-start gap-3 md:gap-4 text-sm font-medium text-base-content/60">
                 <a href="#" className="hover:text-[#DB2777] transition-colors">
                   GitHub
@@ -42,11 +36,8 @@ const Footer = () => {
               </div>
             </div>
 
-            {/* Spacer column for layout breathing room */}
             <div className="hidden md:block md:col-span-1"></div>
 
-            {/* Links Sections (Hidden on Mobile/Tablet via 'hidden md:block') */}
-            {/* PRODUCT LINKS */}
             <div className="hidden md:block md:col-span-2">
               <h6 className="footer-title text-xs font-bold text-base-content tracking-wider uppercase opacity-100 mb-4">
                 Product
@@ -64,7 +55,6 @@ const Footer = () => {
               </div>
             </div>
 
-            {/* COMPANY LINKS */}
             <div className="hidden md:block md:col-span-2">
               <h6 className="footer-title text-xs font-bold text-base-content tracking-wider uppercase opacity-100 mb-4">
                 Company
@@ -82,7 +72,6 @@ const Footer = () => {
               </div>
             </div>
 
-            {/* LEGAL LINKS */}
             <div className="hidden md:block md:col-span-2">
               <h6 className="footer-title text-xs font-bold text-base-content tracking-wider uppercase opacity-100 mb-4">
                 Legal
@@ -98,7 +87,6 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* Bottom Copyright Strip */}
           <div className="border-t border-base-200 mt-10 pt-6 flex flex-col sm:flex-row justify-between items-center gap-4 text-xs text-base-content/50">
             <div>&copy; 2026 Dev Stack. All rights reserved.</div>
             <div className="flex gap-4">
