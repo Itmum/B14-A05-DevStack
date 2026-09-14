@@ -7,14 +7,14 @@ const Banner = () => {
       <div className="container mx-auto px-6 py-12 md:py-20 lg:py-24">
         <div className="grid grid-cols-1 md:grid-cols-12 gap-12 items-center">
           <div className="md:col-span-7 flex flex-col text-center md:text-left items-center md:items-start">
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl text-white text-slate-900 tracking-tight leading-tight max-w-xl">
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl text-white text-slate-900  max-w-xl">
               Build Your Ideal{" "}
               <span className="bg-gradient-to-r from-orange-500 via-pink-500 to-purple-600 bg-clip-text text-transparent block sm:inline">
                 Development Stack
               </span>
             </h1>
 
-            <p className="mt-6 text-base sm:text-lg text-slate-500 max-w-xl leading-relaxed">
+            <p className="mt-6 text-base sm:text-lg text-slate-500 max-w-xl ">
               Explore frontend, backend, database, and tooling options, compare
               them side by side, and put together the stack that fits your next
               project.

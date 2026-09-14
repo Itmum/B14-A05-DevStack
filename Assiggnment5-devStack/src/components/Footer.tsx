@@ -8,7 +8,7 @@ const Footer = () => {
           <div className="flex flex-col items-center text-center md:text-left md:grid md:grid-cols-12 md:gap-8">
             <div className="md:col-span-5 max-w-sm mb-8 md:mb-0">
               <div className="flex items-center justify-center md:justify-start gap-2 mb-4">
-                <div className="bg-gradient-to-tr from-purple-600 to-pink-500 text-white font-bold px-2 py-1 rounded-lg text-sm tracking-wide">
+                <div className="bg-gradient-to-tr from-purple-600 to-pink-500 text-white font-bold px-2 py-1 rounded-lg text-sm ">
                   DS
                 </div>
                 <span className="text-xl font-bold bg-gradient-to-r from-base-content to-pink-500 bg-clip-text text-transparent">
@@ -16,7 +16,7 @@ const Footer = () => {
                 </span>
               </div>
 
-              <p className="text-sm text-base-content/60 leading-relaxed mb-6">
+              <p className="text-sm text-base-content/60  mb-6">
                 Curated tools, technologies, and resources for developers
                 building modern software.
               </p>
@@ -39,7 +39,7 @@ const Footer = () => {
             <div className="hidden md:block md:col-span-1"></div>
 
             <div className="hidden md:block md:col-span-2">
-              <h6 className="footer-title text-xs font-bold text-base-content tracking-wider uppercase opacity-100 mb-4">
+              <h6 className="footer-title text-xs font-bold text-base-content  uppercase opacity-100 mb-4">
                 Product
               </h6>
               <div className="flex flex-col gap-3 text-sm text-base-content/60">
@@ -56,7 +56,7 @@ const Footer = () => {
             </div>
 
             <div className="hidden md:block md:col-span-2">
-              <h6 className="footer-title text-xs font-bold text-base-content tracking-wider uppercase opacity-100 mb-4">
+              <h6 className="footer-title text-xs font-bold text-base-content  uppercase opacity-100 mb-4">
                 Company
               </h6>
               <div className="flex flex-col gap-3 text-sm text-base-content/60">
@@ -73,7 +73,7 @@ const Footer = () => {
             </div>
 
             <div className="hidden md:block md:col-span-2">
-              <h6 className="footer-title text-xs font-bold text-base-content tracking-wider uppercase opacity-100 mb-4">
+              <h6 className="footer-title text-xs font-bold text-base-content  uppercase opacity-100 mb-4">
                 Legal
               </h6>
               <div className="flex flex-col gap-3 text-sm text-base-content/60">

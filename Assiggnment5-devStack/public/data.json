@@ -1,0 +1,142 @@
+[
+  {
+    "id": "react",
+    "name": "React",
+    "category": "Frontend",
+    "description": "A declarative, component-based JavaScript library for building modern user interfaces.",
+    "icon": "https://icon.icepanel.io/Technology/svg/React.svg",
+    "rating": 4.9,
+    "difficulty": "Beginner-Friendly",
+    "badge": "Popular"
+  },
+  {
+    "id": "nextjs",
+    "name": "Next.js",
+    "category": "Frontend",
+    "description": "The React framework for production, offering server-side rendering, routing, and optimization built-in.",
+    "icon": "https://icepanel.io",
+    "rating": 4.8,
+    "difficulty": "Intermediate",
+    "badge": "Fast"
+  },
+  {
+    "id": "nodejs",
+    "name": "Node.js",
+    "category": "Backend",
+    "description": "An open-source, cross-platform JavaScript runtime environment for executing server-side code.",
+    "icon": "https://icepanel.io",
+    "rating": 4.7,
+    "difficulty": "Intermediate",
+    "badge": "Essential"
+  },
+  {
+    "id": "nestjs",
+    "name": "NestJS",
+    "category": "Backend",
+    "description": "A progressive Node.js framework for building efficient, reliable, and scalable server-side applications.",
+    "icon": "https://icepanel.io",
+    "rating": 4.6,
+    "difficulty": "Advanced",
+    "badge": "Scalable"
+  },
+  {
+    "id": "postgresql",
+    "name": "PostgreSQL",
+    "category": "Database",
+    "description": "A powerful, open-source object-relational database system with proven reliability.",
+    "icon": "https://icon.icepanel.io/Technology/svg/PostgresSQL.svg",
+    "rating": 4.9,
+    "difficulty": "Intermediate",
+    "badge": "Top SQL"
+  },
+  {
+    "id": "mongodb",
+    "name": "MongoDB",
+    "category": "Database",
+    "description": "A document-based, distributed NoSQL database designed for modern app developers.",
+    "icon": "https://icepanel.io",
+    "rating": 4.5,
+    "difficulty": "Beginner-Friendly",
+    "badge": "Flexible"
+  },
+  {
+    "id": "typescript",
+    "name": "TypeScript",
+    "category": "Language",
+    "description": "A strongly typed programming language that builds on JavaScript, giving you better tooling at scale.",
+    "icon": "https://icepanel.io",
+    "rating": 4.9,
+    "difficulty": "Intermediate",
+    "badge": "Popular"
+  },
+  {
+    "id": "python",
+    "name": "Python",
+    "category": "Language",
+    "description": "A versatile high-level programming language known for its clear syntax, readability, and data eco-system.",
+    "icon": "https://icepanel.io",
+    "rating": 4.8,
+    "difficulty": "Beginner-Friendly",
+    "badge": "AI Ready"
+  },
+  {
+    "id": "tailwindcss",
+    "name": "Tailwind CSS",
+    "category": "Styling",
+    "description": "A utility-first CSS framework packed with classes that can be composed to build any design.",
+    "icon": "https://icepanel.io",
+    "rating": 4.9,
+    "difficulty": "Beginner-Friendly",
+    "badge": "Essential"
+  },
+  {
+    "id": "docker",
+    "name": "Docker",
+    "category": "DevOps",
+    "description": "A platform for packaging, distributing, and running applications safely inside portable software containers.",
+    "icon": "https://icepanel.io",
+    "rating": 4.8,
+    "difficulty": "Intermediate",
+    "badge": "Containers"
+  },
+  {
+    "id": "kubernetes",
+    "name": "Kubernetes",
+    "category": "DevOps",
+    "description": "An open-source container-orchestration system for automating app deployment, scaling, and management.",
+    "icon": "https://icepanel.io",
+    "rating": 4.7,
+    "difficulty": "Advanced",
+    "badge": "Enterprise"
+  },
+  {
+    "id": "git",
+    "name": "Git",
+    "category": "Tools",
+    "description": "A free and open source distributed version control system designed to handle everything from small to large projects.",
+    "icon": "https://icepanel.io",
+    "rating": 4.9,
+    "difficulty": "Beginner-Friendly",
+    "badge": "Essential"
+  },
+  {
+    "id": "vite",
+    "name": "Vite",
+    "category": "Tools",
+    "description": "A frontend tool that offers an extremely fast development server and optimized build processes.",
+    "icon": "https://icepanel.io",
+    "rating": 4.8,
+    "difficulty": "Beginner-Friendly",
+    "badge": "Blazing Fast"
+  },
+  {
+    "id": "postman",
+    "name": "Postman",
+    "category": "Tools",
+    "description": "An API platform for building and using APIs, simplifying each step of the API lifecycle.",
+    "icon": "https://icepanel.io",
+    "rating": 4.6,
+    "difficulty": "Beginner-Friendly",
+    "badge": "API Testing"
+  }
+]
