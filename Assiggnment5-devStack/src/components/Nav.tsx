@@ -57,7 +57,6 @@ const Nav = () => {
           </button>
         </div>
 
-        {/* MOBILE/TABLET BUTTON: Hamburger Icon (Visible under 768px) */}
         <div className="lg:hidden flex-none">
           <button
             onClick={() => setIsOpen(!isOpen)}
@@ -68,7 +67,6 @@ const Nav = () => {
         </div>
       </div>
 
-      {/* MOBILE DROPDOWN MENU */}
       {isOpen && (
         <div className="absolute top-full left-0 w-full bg-base-100 border-t shadow-lg z-50 lg:hidden p-6 animate-fadeIn">
           <ul className="flex flex-col gap-4 font-medium text-base-content/80 mb-6">
